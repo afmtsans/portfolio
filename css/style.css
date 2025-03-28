@@ -417,11 +417,11 @@ select {
   max-width: 100%;
 }
 
-.about .about-content .about-text h3 {
+.about .about-content .about-text .h3 {
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 700;
-  color: #302e4d;
+  color: #000000;
 }
 
 .about .about-content .about-text p {
@@ -429,6 +429,10 @@ select {
   line-height: 25px;
   color: #504e70;
   margin: 0;
+}
+
+.skills {
+  color: #575757;
 }
 
 .about .about-content .personal-info {
@@ -483,13 +487,13 @@ select {
   line-height: 40px;
   font-weight: 600;
   font-size: 16px;
-  color: #302e4d;
+  color: #050505;
   text-transform: capitalize;
   margin: 0;
 }
 
 .about .about-content .skills .skill-item .progress {
-  background-color: #e3e3e3;
+  background-color: #c9c9c9;
   height: 7px;
   border-radius: 4px;
   width: 100%;
@@ -510,8 +514,10 @@ select {
   right: 0;
   top: -40px;
   font-weight: 400;
-  color: #302e4d;
+  color: #000000;
 }
+
+
 
 .about .about-content .education {
   flex: 0 0 50%;
@@ -529,7 +535,7 @@ select {
   font-size: 24px;
   margin-bottom: 30px;
   font-weight: 700;
-  color: #302e4d;
+  color: #000000;
 }
 
 .about .about-content .timeline-box {
@@ -1088,7 +1094,7 @@ body.dark .section-title h2,
 body.dark .home .intro h1,
 body.dark .aside .logo a,
 body.dark .aside .nav li a {
-  color: #fff;
+  color: #ffffff;
 }
 
 body.dark .contact .contact-form .form-item .form-control,
